@@ -1,3 +1,17 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ header {width:960px;}
+ #block-quickmenu-main-menu {display: none;}
+ 
+ .logo-img img {width:100%;}
+ 
+ ul.nice-menu li {padding:15px; font-size: 14px;}
+ ul.nice-menu ul {margin-top:20px;}
+ 
+ .callout {font-size: 34px;}
+ a.grey_button:link, a.orange_button:link {width:120px;}
+ 
+ textarea, select, input[type="search"], input[type="text"] {width: 130px;}
+ 
+ #block-block-2 {margin-top:25px;}
