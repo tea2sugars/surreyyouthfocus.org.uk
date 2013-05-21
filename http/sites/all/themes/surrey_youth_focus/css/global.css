@@ -76,6 +76,8 @@ a.orange_button:hover							{color:#fff;
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 #zone-content-wrapper	{padding-top:20px;}
 
+#zone-content aside 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
+
 /*---End of Zones----*/
 
 
@@ -85,9 +87,11 @@ a.orange_button:hover							{color:#fff;
 
 /*---Regions---*/
 .region-header-second-inner {margin-right:-10px;}
+.region-sidebar-second-inner	{padding: 10px;}
 
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
+#block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
 .callout				{color:#fff; font-size:46px;}
 
 /*Page elements*/
