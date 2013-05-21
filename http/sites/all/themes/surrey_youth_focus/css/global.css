@@ -1,3 +1,21 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {font-family: helvetica, arial, sans-serif;}
+
+/*Typography*/
+h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
+h1 						{font-size:24px; color:#1f7ec2;}
+h2, h2.block-title		{font-size:22px; color:#1f7ec2;}
+h4						{font-size:14px;}
+p 						{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 13px;}
+li						{list-style: none;}
+
+a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
+a:hover 				{text-decoration: underline;}
+
+footer p				{color:#fff;}
+.callout				{color:#fff; font-size:48px;}
+#zone-preface h4		{color:#fff; text-align: center;}
+
+/*Footer*/
 footer {background:#000; color:#fff;}
