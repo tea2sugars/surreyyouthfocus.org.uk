@@ -18,11 +18,12 @@ ul.nice-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-top: 1px solid #ccc;
+  border-top: none;
+  
 }
 
 ul.nice-menu li {
-  border: 1px solid #ccc;
+  border: 0;
   border-top: 0;
   float: left; /* LTR */
   background-color: #eee;
@@ -30,6 +31,10 @@ ul.nice-menu li {
 
 ul.nice-menu a {
   padding: 0.3em 5px 0.3em 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  
 }
 
 ul.nice-menu ul {
@@ -114,7 +119,7 @@ ul.nice-menu-down {
 }
 
 ul.nice-menu-down li {
-  border-top: 1px solid #ccc;
+  border:0;
 }
 
 ul.nice-menu-down li li {
@@ -123,28 +128,56 @@ ul.nice-menu-down li li {
 
 ul.nice-menu-down ul {
   left: 0; /* LTR */
+  margin-top:40px;
+  border:0;
 }
 
 ul.nice-menu-down ul li {
   clear: both;
+  background: #1f7ec2;
+  padding:5px 20px;
+  color: white;
+  width:200px;
+  
 }
 
+ul.nice-menu-down ul li ul li.menuparent {
+  clear: both;
+  background: #000;
+  color: white;
+  
+}
+
+ul.nice-menu-down li ul li.menuparent {
+background: #1f7ec2;
+padding:5px 20px;
+color: white;}
+
+
+
 ul.nice-menu-down li ul li ul {
-  left: 12.5em; /* LTR */
-  top: -1px;
+  left: 240px; /* LTR */
+  top: -40px;
+  border:0;
+  
 }
 
 ul.nice-menu-down .menuparent a {
-  padding-right: 15px; /* LTR */
+  padding-right: 20px; /* LTR */
 }
 
-ul.nice-menu-down li.menuparent {
-  background: #eee url(arrow-down.png) right center no-repeat; /* LTR */
+ul.nice-menu-down li.menuparent{
+  background: #000;
+  padding:25px;
+  color: white; /* LTR */
 }
 
 ul.nice-menu-down li.menuparent:hover {
-  background: #ccc url(arrow-down.png) right center no-repeat; /* LTR */
+  background: #1f7ec2;
+  color:white;/* LTR */
 }
+
+ul.nice-menu-down ul li:hover, ul.nice-menu-down li ul li.menuparent:hover {background: #31a3dc;}
 
 ul.nice-menu-down li li.menuparent {
   background: #eee url(arrow-right.png) right center no-repeat; /* LTR */
@@ -196,11 +229,11 @@ ul.nice-menu li {
 }
 
 #header-region ul.nice-menu-down li.menuparent {
-  background: #eee url(arrow-down.png) right center no-repeat; /* LTR */
+  background: #000; /* LTR */
 }
 
 #header-region ul.nice-menu-down li.menuparent:hover {
-  background: #ccc url(arrow-down.png) right center no-repeat; /* LTR */
+  background: #fff; /* LTR */
 }
 
 #header-region ul.nice-menu-down li li.menuparent {
