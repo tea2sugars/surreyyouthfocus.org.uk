@@ -71,8 +71,11 @@ a.orange_button:hover							{color:#fff;
 
 /*Navigation bar*/
 #zone-branding-wrapper 	{background: black;}
+/*End Navigation*/
 #zone-preface 			{background: black;}
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
+#zone-content-wrapper	{padding-top:20px;}
+
 /*---End of Zones----*/
 
 
