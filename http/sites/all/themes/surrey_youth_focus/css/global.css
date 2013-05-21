@@ -2,6 +2,8 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body {font-family: helvetica, arial, sans-serif;}
 
+table, td {border: none;}
+
 /*---Typography---*/
 h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
 h1 						{font-size:24px; color:#1f7ec2;}
@@ -12,6 +14,9 @@ li						{list-style: none;}
 
 a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
 a:hover 				{text-decoration: underline;}
+
+.stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle;}
+.stat_body				{font-size:24px; color:#1f7ec2; vertical-align: middle;}
 
 footer p				{color:#fff;}
 
@@ -76,7 +81,7 @@ a.orange_button:hover							{color:#fff;
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 #zone-content-wrapper	{padding-top:20px;}
 
-#zone-content aside 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
+#zone-content aside, .highlight_block 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
 
 /*---End of Zones----*/
 
@@ -97,3 +102,4 @@ a.orange_button:hover							{color:#fff;
 /*Page elements*/
 header {margin: 0 auto; height:400px;}
 footer {background:#000; color:#fff; padding:20px 0;}
+*::-moz-focus-inner {background: none;}
