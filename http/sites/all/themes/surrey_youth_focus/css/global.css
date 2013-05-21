@@ -96,4 +96,4 @@ a.orange_button:hover							{color:#fff;
 
 /*Page elements*/
 header {margin: 0 auto; height:400px;}
-footer {background:#000; color:#fff;}
+footer {background:#000; color:#fff; padding:20px 0;}
