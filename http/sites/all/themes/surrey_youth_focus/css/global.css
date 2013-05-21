@@ -2,7 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body {font-family: helvetica, arial, sans-serif;}
 
-/*Typography*/
+/*---Typography---*/
 h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
 h1 						{font-size:24px; color:#1f7ec2;}
 h2, h2.block-title		{font-size:22px; color:#1f7ec2;}
@@ -14,8 +14,54 @@ a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
 a:hover 				{text-decoration: underline;}
 
 footer p				{color:#fff;}
-.callout				{color:#fff; font-size:48px;}
-#zone-preface h4		{color:#fff; text-align: center;}
 
-/*Footer*/
+/*---buttons---*/
+a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
+												background: #fefefd; /* Old browsers */
+												background: -moz-linear-gradient(top,  #fefefd 0%, #fefefd 100%); /* FF3.6+ */
+												background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefd), color-stop(100%,#fefefd)); /* Chrome,Safari4+ */
+												background: -webkit-linear-gradient(top,  #fefefd 0%,#fefefd 100%); /* Chrome10+,Safari5.1+ */
+												background: -o-linear-gradient(top,  #fefefd 0%,#fefefd 100%); /* Opera 11.10+ */
+												background: -ms-linear-gradient(top,  #fefefd 0%,#fefefd 100%); /* IE10+ */
+												background: linear-gradient(to bottom,  #fefefd 0%,#fefefd 100%); /* W3C */
+												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#fefefd',GradientType=0 ); /* IE6-9 */
+												border:1px solid #dddddd;
+												-webkit-border-radius: 5px;
+												border-radius: 5px;
+												width:150px;
+												padding:5px 0;
+												display: block;
+												text-align: center;
+												}
+												
+a.grey_button:hover								{color:#fff;
+												background: #666; /* Old browsers */
+												border:1px solid #666;
+												text-decoration: none;
+												}
+
+
+
+/*---Zones----*/
+
+/*Navigation bar*/
+#zone-branding-wrapper 	{background: black;}
+#zone-preface 			{background: black;}
+#zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
+/*---End of Zones----*/
+
+
+/*---Sections----*/
+/*.front #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}*/
+#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}
+
+/*---Regions---*/
+.region-header-second-inner {margin-right:-10px;}
+
+/*---blocks---*/
+#block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
+.callout				{color:#fff; font-size:46px;}
+
+/*Page elements*/
+header {margin: 0 auto; height:400px;}
 footer {background:#000; color:#fff;}
