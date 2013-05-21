@@ -18,7 +18,8 @@ a:hover 				{text-decoration: underline;}
 .stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle;}
 .stat_body				{font-size:24px; color:#1f7ec2; vertical-align: middle;}
 
-footer p				{color:#fff;}
+footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
+footer p.terms								{font-size:11px;}
 
 /*---buttons---*/
 a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
