@@ -77,7 +77,6 @@ a.orange_button:hover							{color:#fff;
 /*Navigation bar*/
 #zone-branding-wrapper 	{background: black;}
 /*End Navigation*/
-#zone-preface 			{background: black;}
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 #zone-content-wrapper	{padding-top:20px;}
 
@@ -93,11 +92,15 @@ a.orange_button:hover							{color:#fff;
 /*---Regions---*/
 .region-header-second-inner {margin-right:-10px;}
 .region-sidebar-second-inner	{padding: 10px;}
+#region-preface-first {background: black; margin:0; width:100%;}
 
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
 #block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
+#block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
+
 .callout				{color:#fff; font-size:46px;}
+
 
 /*Page elements*/
 header {margin: 0 auto; height:400px;}
