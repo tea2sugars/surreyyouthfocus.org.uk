@@ -70,6 +70,31 @@ a.orange_button:hover							{color:#fff;
 												border:1px solid #DD730F;
 												text-decoration: none;
 												}
+												
+a.blue_button:link, a.blue_button:visited		{color:#fff;
+												background: #1b83b8; /* Old browsers */
+background: -moz-linear-gradient(top,  #1b83b8 21%, #195f81 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#1b83b8), color-stop(100%,#195f81)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1b83b8 21%,#195f81 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1b83b8 21%,#195f81 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1b83b8 21%,#195f81 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1b83b8 21%,#195f81 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b83b8', endColorstr='#195f81',GradientType=0 ); /* IE6-9 */
+												border:1px solid #1b83b8;
+												-webkit-border-radius: 5px;
+												border-radius: 5px;
+												width:90%;
+												padding:4px 0;
+												display: inline-block;
+												text-align: center;
+												font-weight: normal;
+												}
+												
+a.blue_button:hover								{color:#fff;
+												background: #1b83b8; /* Old browsers */
+												border:1px solid #1b83b8;
+												text-decoration: none;
+												}
 
 
 /*---Zones----*/
@@ -98,6 +123,8 @@ a.orange_button:hover							{color:#fff;
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
 #block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
 #block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
+#block-block-12 .block-inner {background: rgba(0,0,0,0.6); height:20px; text-align: center; padding:5px 0;}
+#block-block-12 .block-inner 
 
 .callout				{color:#fff; font-size:46px;}
 
