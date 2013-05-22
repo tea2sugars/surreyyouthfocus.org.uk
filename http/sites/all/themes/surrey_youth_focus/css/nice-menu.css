@@ -38,12 +38,18 @@ ul.nice-menu a, ul.nice-menu li a {
 }
 
 ul.nice-menu ul {
-  top: 1.8em;
+  top: 45px;
   left: -1px; /* LTR */
   border: 0;
   border-top: 1px solid #ccc;
   margin-right: 0; /* LTR */
 }
+
+ul.nice-menu ul ul {
+  top: 0px;
+  }
+  
+ul.nice-menu ul ul li .menu-465 {margin-top:30px;}
 
 ul.nice-menu ul li {
   width: 12.5em;
