@@ -22,7 +22,9 @@ a:hover 				{text-decoration: underline;}
 .stat_body				{vertical-align: middle; text-align: left;}
 
 footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
-footer p.terms								{font-size:11px;}
+footer p.terms															{font-size:11px;}
+.footer-phone			{background:url(/sites/all/themes/surrey_youth_focus/images/footer_contact.jpg) no-repeat 0 10px; padding-left:30px;}
+
 
 /*---buttons---*/
 a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
