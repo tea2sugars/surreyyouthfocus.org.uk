@@ -10,14 +10,15 @@ h1 						{font-size:24px; color:#1f7ec2;}
 h2, h2.block-title		{font-size:22px; color:#1f7ec2;}
 h3						{font-size:18px; color:#1f7ec2;}
 h4						{font-size:14px;}
+.stat_body h6			{font-size:18px; color:#1f7ec2; margin:0;}
 p 						{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 13px;}
 li						{list-style: none;}
 
 a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
 a:hover 				{text-decoration: underline;}
 
-.stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle;}
-.stat_body				{font-size:24px; color:#1f7ec2; vertical-align: middle;}
+.stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle; text-align: right;}
+.stat_body				{vertical-align: middle; text-align: left;}
 
 footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
 footer p.terms								{font-size:11px;}
