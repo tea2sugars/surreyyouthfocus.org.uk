@@ -3,14 +3,4 @@
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
  header {width:960px;}
  #block-quickmenu-main-menu {display: none;}
- 
- .logo-img img {width:100%;}
- 
- ul.nice-menu li {padding:15px; font-size: 14px;}
- ul.nice-menu ul {margin-top:20px;}
- 
- .callout {font-size: 46px; color:white;}
- 
- textarea, select, input[type="search"], input[type="text"] {width: 130px;}
- 
- #block-block-2 {margin-top:25px;}
+ .not-logged-in #region-user-first {margin-left:650px;}
