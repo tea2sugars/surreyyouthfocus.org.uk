@@ -105,6 +105,7 @@ a.blue_button:hover								{color:#fff;
 												}
 
 
+
 /*---Zones----*/
 
 /*Navigation bar*/
@@ -114,6 +115,9 @@ a.blue_button:hover								{color:#fff;
 #zone-content-wrapper	{padding-top:20px;}
 
 #zone-content aside, .highlight_block 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
+
+#zone-content img {width:100%; height:auto;}
+
 
 /*---End of Zones----*/
 

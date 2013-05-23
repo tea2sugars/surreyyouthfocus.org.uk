@@ -1,1 +1,2 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+#zone-content img {width:100%; height:auto;}

@@ -3,3 +3,4 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
  #block-quickmenu-main-menu {display: none;}
+ #zone-content img {width:100%; height:auto}
