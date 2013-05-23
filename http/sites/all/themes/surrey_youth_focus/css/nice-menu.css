@@ -255,7 +255,7 @@ ul.nice-menu li {
 * NICE MENU 2 - for User controls
 */
 #nice-menu-2 {height:20px;}
-#nice-menu-2 a:link {font-size: 11px;}
-#nice-menu-2 li {padding:5px; background: black; margin-right:5px; text-align: center;}
+#nice-menu-2 a:link {font-size: 11px; text-align: left;}
+#nice-menu-2 li {padding:5px; background: black; margin-right:5px; margin:0;}
 #nice-menu-2 li:hover {background: #1f7ec2;}
-#nice-menu-2 ul {margin-top:5px;}
+#nice-menu-2 li ul {margin-top:-16px;}
