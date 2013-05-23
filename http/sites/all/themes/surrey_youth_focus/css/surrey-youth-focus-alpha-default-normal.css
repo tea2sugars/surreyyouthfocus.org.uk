@@ -4,3 +4,5 @@
  header {width:960px;}
  #block-quickmenu-main-menu {display: none;}
  .not-logged-in #region-user-first {margin-left:650px;}
+.logo-img {margin-right:0;}
+ img#logo {width:100%;}

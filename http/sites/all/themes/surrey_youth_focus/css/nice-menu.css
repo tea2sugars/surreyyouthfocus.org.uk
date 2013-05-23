@@ -134,7 +134,7 @@ ul.nice-menu-down li li {
 
 ul.nice-menu-down ul {
   left: 0; /* LTR */
-  margin-top:40px;
+  margin-top:18px;
   border:0;
 }
 
@@ -204,6 +204,7 @@ ul.nice-menu li {
   margin: 0;
   padding-left: 0; /* LTR */
   background-image: none;
+  margin-top:0;
 }
 
 #header-region ul.nice-menu li {
