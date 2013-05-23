@@ -150,5 +150,12 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 .view-contact-team .item-list ul li.views-row-2, .view-contact-team .item-list ul li.views-row-3 {margin:0 5px;}
 .view-contact-team .item-list ul li h3 {margin-top:5px;}
 .view-contact-team .item-list ul li .views-field-body  {margin-bottom:5px;}
+
+/*Members Directory*/
+.view-members-directory td {vertical-align: top; width:20%;}
+.view-members-directory .views-field-field-image {height:80px;}
+.view-members-directory .views-field-title {height:40px;}
+..view-members-directory .views-field-body {height:150px;}
+
 /*Membership*/
 .not-logged-in .menu-470 {display: none;}
