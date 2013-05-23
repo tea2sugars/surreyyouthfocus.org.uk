@@ -89,8 +89,8 @@ a.blue_button:link, a.blue_button:visited		{color:#fff;
 												background: linear-gradient(to bottom,  #1b83b8 21%,#195f81 100%); /* W3C */
 												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b83b8', endColorstr='#195f81',GradientType=0 ); /* IE6-9 */
 												border:1px solid #1b83b8;
-												-webkit-border-radius: 5px;
-												border-radius: 5px;
+												-webkit-border-radius: 0px 0px 5px 5px; ;
+												border-radius: 0px 0px 5px 5px;
 												width:90%;
 												padding:4px 0;
 												display: inline-block;
