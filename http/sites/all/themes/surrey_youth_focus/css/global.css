@@ -8,6 +8,7 @@ table, td {border: none;}
 h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
 h1 						{font-size:24px; color:#1f7ec2;}
 h2, h2.block-title		{font-size:22px; color:#1f7ec2;}
+h3						{color:#1f7ec2;}
 h4						{font-size:14px;}
 p 						{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 13px;}
 li						{list-style: none;}
