@@ -20,6 +20,9 @@ a:hover 				{text-decoration: underline;}
 
 .stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle; text-align: right;}
 .stat_body				{vertical-align: middle; text-align: left;}
+p.callout				{color:#fff; font-size:46px;}
+
+#contact_table p, #contact_table h4 {margin-bottom: 0;}
 
 footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
 footer p.terms															{font-size:11px;}
@@ -123,6 +126,9 @@ a.blue_button:hover								{color:#fff;
 .region-header-second-inner {margin-right:-10px;}
 .region-sidebar-second-inner	{padding: 10px;}
 #region-preface-first {background: black; margin:0; width:100%;}
+/*------Contact Regions------*/
+.page-node-13 #region-postscript-first, .page-node-13 #region-postscript-second {height:200px;}
+
 
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
@@ -132,8 +138,6 @@ a.blue_button:hover								{color:#fff;
 
 #block-block-4 .orange_button, #block-block-4 .grey_button {width:45%;}
 
-p.callout				{color:#fff; font-size:46px;}
-
 
 /*Page elements*/
 header {margin: 0 auto; height:400px;}
@@ -141,5 +145,10 @@ header {margin: 0 auto; height:400px;}
 footer {background:#000; color:#fff; padding:20px 0;}
 *::-moz-focus-inner {background: none;}
 
+/*Contact Page*/
+.view-contact-team .item-list ul li {display: inline-block; margin:0;}
+.view-contact-team .item-list ul li.views-row-2, .view-contact-team .item-list ul li.views-row-3 {margin:0 5px;}
+.view-contact-team .item-list ul li h3 {margin-top:5px;}
+.view-contact-team .item-list ul li .views-field-body  {margin-bottom:5px;}
 /*Membership*/
 .not-logged-in .menu-470 {display: none;}
