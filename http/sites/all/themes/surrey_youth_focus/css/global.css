@@ -103,6 +103,8 @@ a.blue_button:hover								{color:#fff;
 												border:1px solid #1b83b8;
 												text-decoration: none;
 												}
+												
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 
 
@@ -165,3 +167,27 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 
 /*Membership*/
 .not-logged-in .menu-470 {display: none;}
+
+/*Member Offers Page*/
+#discount_button, #offers_button, #business_button {width:32%; float:left; min-height:120px; -webkit-border-radius: 5px; border-radius: 5px;}
+
+#offers_button {margin:0 2%;}
+#discount_button p, #offers_button p, #business_button p {font-size:13px; color:white; margin:0 20px;}
+#discount_button a:link, #offers_button a:link, #business_button a:link, #block-views-members-offers-block-3 a:link, #block-views-members-offers-block-3 a:link, #discount_button a:visited, #offers_button a:visited, #business_button a:visited, #block-views-members-offers-block-3 a:visited {color:white; font-weight: normal;}
+#discount_button h1, #offers_button h1, #business_button h1 {margin:20px 20px 0 20px; line-height: 1.2;}
+#discount_button 	{background:#0e92f0;}
+#offers_button		{background:#02b8d9;}
+#business_button	{background:#3F448A;}
+#block-views-members-offers-block-3 {background:#df1970; -webkit-border-radius: 5px; border-radius: 5px; padding:20px; margin:20px 0;}
+#block-views-members-offers-block-3 h2 {color:white;}
+#block-views-members-offers-block-3 td {width:300px;}
+#block-views-members-offers-block-3 {font-size:13px; color:white;}
+#block-views-members-offers-block-3 .views-field-field-image {width:280px; float:left; margin-right:30px;}
+#block-views-members-offers-block-3 .views-field-field-image img {border:5px solid white;}
+#block-views-members-offers-block-3 .views-field-title {width:500px; float:left; font-size:24px; letter-spacing:1px;}
+#block-views-members-offers-block-3 .views-field-field-organisation {width:500px; float:left; font-size:20px; margin-top:3px;}
+
+#block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row {width:30%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:200px;}
+#block-views-members-offers-block-1 {margin:40px 0;}
+#block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-members-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
+
