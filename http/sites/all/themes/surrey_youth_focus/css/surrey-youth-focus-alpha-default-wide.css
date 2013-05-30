@@ -2,4 +2,5 @@
 header {width:1200px;}
 #block-quickmenu-main-menu {display: none;}
 .not-logged-in #region-user-first {margin-left:810px;}
-
+/*Resource Directory*/
+.node-type-resource-listing article.node-resource-listing .field-label {width:350px; }

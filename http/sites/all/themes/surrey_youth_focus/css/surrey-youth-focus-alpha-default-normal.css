@@ -6,3 +6,5 @@
  .not-logged-in #region-user-first {margin-left:650px;}
 .logo-img {margin-right:0;}
  img#logo {width:100%;}
+ /*Resource Directory*/
+.node-type-resource-listing article.node-resource-listing .field-label {width:200px; }

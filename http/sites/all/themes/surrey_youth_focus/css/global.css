@@ -12,7 +12,7 @@ h2, h2.block-title		{font-size:20px; color:#1f7ec2; margin:0 0 20px 0; line-heig
 h3						{font-size:18px; color:#1f7ec2; margin:0 0 20px 0; line-height:1.111;}
 h4						{font-size:15px; margin:0 0 20px 0; line-height:1.333}
 .stat_body h6			{font-size:18px; color:#1f7ec2; margin:0;}
-p 						{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
+p		 				{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
 li						{list-style: none;}
 
 a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
@@ -135,6 +135,14 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 /*------Contact Regions------*/
 .page-node-13 #region-postscript-first, .page-node-13 #region-postscript-second {height:200px;}
 
+/*Field Styles*/
+.field-name-field-top-image 				{margin-bottom:20px;}
+.field-name-field-accommodation-details 	{margin-bottom: 10px;}
+.field-name-field-resources 				{margin-bottom: 20px;}
+.field 		{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 5px 0;}
+.field p {margin-bottom: 0;}
+.field-name-field-recreational-facilities .field-item {margin-right:5px;}
+
 
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
@@ -190,4 +198,5 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 #block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row {width:30%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:200px;}
 #block-views-members-offers-block-1 {margin:40px 0;}
 #block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-members-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
+
 
