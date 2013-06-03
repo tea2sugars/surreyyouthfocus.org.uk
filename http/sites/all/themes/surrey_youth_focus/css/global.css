@@ -89,7 +89,7 @@ a.blue_button:link, a.blue_button:visited		{color:#fff;
 												background: linear-gradient(to bottom,  #1b83b8 21%,#195f81 100%); /* W3C */
 												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b83b8', endColorstr='#195f81',GradientType=0 ); /* IE6-9 */
 												border:1px solid #1b83b8;
-												-webkit-border-radius: 0px 0px 5px 5px; ;
+												-webkit-border-radius: 0px 0px 5px 5px;
 												border-radius: 0px 0px 5px 5px;
 												width:90%;
 												padding:4px 0;
@@ -201,5 +201,7 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 #block-views-members-offers-block-1 {margin:40px 0;}
 #block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-members-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
 
+#galleria-1, .galleria-container {height:100%;width:100%;}
+.galleria-container {background:#f9f9f9; outline: 1px solid #dcdcdc; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; margin-bottom:10px; }
 
 
