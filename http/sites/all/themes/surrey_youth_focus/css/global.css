@@ -126,7 +126,7 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 /*---Sections----*/
 /*.front #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}*/
-#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}
+#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/syf_girls.jpg) no-repeat center top; background-size: cover;}
 
 /*---Regions---*/
 .region-header-second-inner {margin-right:-10px;}
