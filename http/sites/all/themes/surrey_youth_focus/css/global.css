@@ -188,9 +188,9 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 .not-logged-in .menu-470 {display: none;}
 
 /*Member Offers Page*/
-#discount_button, #offers_button, #business_button {width:32%; float:left; min-height:120px; -webkit-border-radius: 5px; border-radius: 5px;}
+#discount_button, #offers_button, #business_button {width:100%; float:left; min-height:100px; -webkit-border-radius: 5px; border-radius: 5px;}
 
-#offers_button {margin:0 2%;}
+#offers_button {margin:10px 0;}
 #discount_button p, #offers_button p, #business_button p {font-size:13px; color:white; margin:0 20px;}
 #discount_button a:link, #offers_button a:link, #business_button a:link, #block-views-members-offers-block-3 a:link, #block-views-members-offers-block-3 a:link, #discount_button a:visited, #offers_button a:visited, #business_button a:visited, #block-views-members-offers-block-3 a:visited {color:white; font-weight: normal;}
 #discount_button h1, #offers_button h1, #business_button h1 {margin:20px 20px 0 20px; line-height: 1.2;}
