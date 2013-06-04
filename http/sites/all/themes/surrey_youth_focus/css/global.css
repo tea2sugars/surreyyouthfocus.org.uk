@@ -116,7 +116,8 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 #zone-content-wrapper	{padding-top:20px;}
 
-#zone-content aside, .highlight_block 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
+/*#zone-content aside,*/#region-sidebar-second, .highlight_block, #block-block-7, #block-block-21 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
+#block-block-21 {margin:20px 0 0 0;}
 
 #zone-content img {width:100%; height:auto;}
 
@@ -140,19 +141,24 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 .field-name-field-accommodation-details 	{margin-bottom: 10px;}
 .field-name-field-resources 				{margin-bottom: 20px;}
 .field 		{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 5px 0;}
-.field p {margin-bottom: 0;}
+/*.field p 	{margin-bottom: 0;}*/
 .field-name-field-recreational-facilities .field-item {margin-right:5px;}
 
 
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
 #block-block-4 .orange_button, #block-block-4 .grey_button {width:45%;}
+#block-block-2 {margin-top:10px;}
 #block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
 #block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
-#block-block-7 .block-inner {padding:5px;}
+#block-block-7 .block-inner, #block-block-21 .block-inner {padding:10px;}
 #block-block-12 .block-inner {background: rgba(0,0,0,0.6); height:20px; text-align: center; padding:5px 0;}
-#block-block-18, #block-block-19, #block-block-20 {float:left; width:30%;}
+#block-block-18, #block-block-19, #block-block-20 {float:left; width:29%; -webkit-border-radius: 5px; border-radius: 5px; background:#f9f9f9; border:1px solid #dcdcdc;}
+#block-block-18, #block-block-19 {height:360px;}
+#block-block-18 .block-inner, #block-block-19 .block-inner, #block-block-20 .block-inner {padding:10px;}
+#block-block-19 .orange_button {margin-top:16px;}
 #block-block-19 {margin:0 5%;}
+
 
 
 /*Page elements*/
@@ -194,12 +200,19 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 #block-views-members-offers-block-3 .views-field-field-image img {border:5px solid white;}
 #block-views-members-offers-block-3 .views-field-title {width:500px; float:left; font-size:24px; letter-spacing:1px;}
 #block-views-members-offers-block-3 .views-field-field-organisation {width:500px; float:left; font-size:20px; margin-top:3px;}
+.node-type-members-directory #zone-content img {width:250px;}
 
-#block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row {width:30%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:200px;}
+#block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row {width:29%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:200px;}
+
+#block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:230px;}
+
 #block-views-members-offers-block-2 .views-row {height:150px;}
 
 #block-views-members-offers-block-1 {margin:40px 0;}
 #block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-members-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
+
+.view-members-directory .views-field-field-image {height:120px;}
+/*Gallery setup*/
 
 #galleria-1, .galleria-container {height:100%;width:100%;}
 .galleria-container {background:#f9f9f9; outline: 1px solid #dcdcdc; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; margin-bottom:10px; }
