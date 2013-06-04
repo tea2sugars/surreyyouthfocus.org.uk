@@ -1,2 +1,41 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 #zone-content img {width:100%; height:auto;}
+
+/*---Typography---*/
+h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
+h1						{font-size:24px; color:#1f7ec2; margin:0 0 30px 0; line-height:1.666;}
+.front h1#page-title	{margin-bottom:10px;}
+h2, h2.block-title		{font-size:20px; color:#1f7ec2; margin:0 0 20px 0; line-height:1;}
+h3						{font-size:18px; color:#1f7ec2; margin:0 0 20px 0; line-height:1.111;}
+h4						{font-size:15px; margin:0 0 20px 0; line-height:1.333}
+.stat_body h6			{font-size:18px; color:#1f7ec2; margin:0;}
+p		 				{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
+li						{list-style: none;}
+
+a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
+a:hover 				{text-decoration: underline;}
+
+.stat					{font-size: 60px; color:#1f7ec2; vertical-align: middle; text-align: right;}
+.stat_body				{vertical-align: middle; text-align: left;}
+p.callout				{color:#fff; font-size:46px;}
+
+#contact_table p, #contact_table h4 {margin-bottom: 0;}
+
+footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
+footer p.terms															{font-size:11px;}
+.footer-phone			{background:url(/sites/all/themes/surrey_youth_focus/images/footer_contact.jpg) no-repeat 0 10px; padding-left:30px;}
+
+/*Page elements*/
+.logo-img {margin-right:0;}
+ img#logo {width:100%; margin-top:0;}
+ header {margin: 0 auto; height:400px;}
+ #zone-user {display:inherit;}
+ 
+ #block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; height:240px;}
+ 
+ #block-nice-menus-1 {display: inherit;}
+ #block-jump-menu-jump-menu-m-main-menu {display:none;}
+ 
+ #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/syf_girls.jpg) no-repeat center top; background-size: cover;}
+
+#zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}

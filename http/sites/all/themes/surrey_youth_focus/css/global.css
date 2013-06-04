@@ -29,6 +29,8 @@ footer p.terms															{font-size:11px;}
 .footer-phone			{background:url(/sites/all/themes/surrey_youth_focus/images/footer_contact.jpg) no-repeat 0 10px; padding-left:30px;}
 
 
+
+
 /*---buttons---*/
 a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
 												background: #fefefd; /* Old browsers */
@@ -113,7 +115,7 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 /*Navigation bar*/
 #zone-branding-wrapper 	{background: black;}
 /*End Navigation*/
-#zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
+#zone-preface h4		{color:#fff; text-align: center; margin:0;}
 #zone-content-wrapper	{padding-top:20px;}
 
 /*#zone-content aside,*/#region-sidebar-second, .highlight_block, #block-block-7, #block-block-21 	{background: #f9f9f9; outline: 1px solid #dcdcdc;}
@@ -127,7 +129,7 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 /*---Sections----*/
 /*.front #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}*/
-#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/syf_girls.jpg) no-repeat center top; background-size: cover;}
+#section-header 		{background-image: none; background: #000; }
 
 /*---Regions---*/
 .region-header-second-inner {margin-right:-10px;}
@@ -162,10 +164,11 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 
 /*Page elements*/
-header {margin: 0 auto; height:400px;}
+header {margin: 0 auto; height:100px; background: #000;}
 .logo-img {margin-top:5px;}
 footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 *::-moz-focus-inner {background: none;}
+#zone-user {display:none;}
 
 /*Contact Page*/
 .view-contact-team .item-list ul li {display: inline-block; margin:0;}
@@ -204,17 +207,22 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 
 #block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row {width:29%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:200px;}
 
-#block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:230px;}
+#block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:42%; float:left; margin:1%; background:#f9f9f9; border:1px solid #dcdcdc; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 10px 5px; height:300px;}
 
 #block-views-members-offers-block-2 .views-row {height:150px;}
 
 #block-views-members-offers-block-1 {margin:40px 0;}
-#block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-members-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
+#block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-memberss-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
 
 .view-members-directory .views-field-field-image {height:120px;}
 /*Gallery setup*/
 
 #galleria-1, .galleria-container {height:100%;width:100%;}
 .galleria-container {background:#f9f9f9; outline: 1px solid #dcdcdc; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; margin-bottom:10px; }
+
+/* Responsive stuff */
+#block-nice-menus-1 {display:none;}
+#block-jump-menu-jump-menu-m-main-menu {margin-top:10px;}
+
 
 

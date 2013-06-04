@@ -5,6 +5,10 @@
  #block-quickmenu-main-menu {display: none;}
  .not-logged-in #region-user-first {margin-left:650px;}
 .logo-img {margin-right:0;}
- img#logo {width:100%;}
+ img#logo {width:100%; margin-top:5px;}
  /*Resource Directory*/
 .node-type-resource-listing article.node-resource-listing .field-label {width:200px; }
+
+/*typography*/
+h2 						{font-size:16px;}
+p.callout				{color:#fff; font-size:36px;}
