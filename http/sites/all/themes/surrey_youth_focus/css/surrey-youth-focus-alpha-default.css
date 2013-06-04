@@ -39,3 +39,5 @@ footer p.terms															{font-size:11px;}
  #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/syf_girls.jpg) no-repeat center top; background-size: cover;}
 
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
+
+#zone-content-wrapper, .front #zone-content-wrapper {margin-top:0;}
