@@ -65,6 +65,17 @@ footer p.terms															{font-size:11px;}
  .node-type-resource-listing #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_3teens.jpg) no-repeat center top; background-size: cover;}
  /*End of Do Youth Work*/
  
+ /*Volunteering section*/
+ .page-node-33 #section-header,
+ .page-node-34 #section-header,
+ .page-node-35 #section-header,
+ .page-node-45 #section-header,
+ .page-node-59 #section-header,
+.page-volunteer-vacancies #section-header,
+.node-type-volunteering-vacancies #section-header,
+.page-duke-of-edinburgh-volunteer-vacancies #section-header,
+.node-type-volunteering-vacancies #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volunteer.jpg) no-repeat center top; background-size: cover;}
+/* End of volunteering*/
  
  /*
  
