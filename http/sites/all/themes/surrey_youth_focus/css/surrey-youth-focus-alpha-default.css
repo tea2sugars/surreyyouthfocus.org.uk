@@ -37,7 +37,23 @@ footer p.terms															{font-size:11px;}
  #block-nice-menus-1 {display: inherit;}
  #block-jump-menu-jump-menu-m-main-menu {display:none;}
  
- #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/syf_girls.jpg) no-repeat center top; background-size: cover;}
+ /*HEADER IMAGES*/
+ /*---Default image---*/
+ #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
+ /*End default*/
+ 
+ /*About Us Section*/
+ .page-node-13 #section-header,
+ .page-node-2 #section-header,
+ .page-node-28 #section-header,
+ .page-node-29 #section-header,
+ .page-node-32 #section-header,
+ .page-node-36 #section-header,
+ .page-node-55 #section-header,
+ .page-members #section-header,
+ .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
+ 
+ 
 
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 
