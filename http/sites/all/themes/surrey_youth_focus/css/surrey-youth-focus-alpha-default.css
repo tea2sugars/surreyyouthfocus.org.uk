@@ -87,24 +87,8 @@ footer p.terms															{font-size:11px;}
 /* End of Join us*/
 
 /*Members section*/
-.page-the-uniformed-swap-shop #section-header,
-.node-type-swap-shop-uniformed #section-header,
-.page-news #section-header,
-.node-type-article #section-header,
-.page-archive #section-header,
-.page-e-bulletins-archive #section-header,
-.node-type-e-bulletin-archive #section-header,
-.node-type-members-offers-and-discounts #section-header,
-.page-node-49 #section-header,
-.page-node-46 #section-header,
-.page-node-8 #section-header,
-.page-node-47 #section-header,
-.page-node-60 #section-header,
-.page-node-7 #section-header,
-.page-node-88 #section-header,
-.page-node-89 #section-header,
-.page-node-81 #section-header,
-.page-node-85 #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley2.jpg) no-repeat center top; background-size: cover;}
+.page-the-uniformed-swap-shop #section-header,.node-type-swap-shop-uniformed #section-header,.page-news #section-header,.node-type-article #section-header,.page-archive #section-header,.page-e-bulletins-archive #section-header,.node-type-e-bulletin-archive #section-header,.node-type-members-offers-and-discounts #section-header,.page-node-49 #section-header,.page-node-46 #section-header,.page-node-8 #section-header,.page-node-47 #section-header,.page-node-60 #section-header,.page-node-7 #section-header,.page-node-88 #section-header,.page-node-89 #section-header,.page-node-81 #section-header,.page-node-85 #section-header{background:url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley2.jpg) no-repeat center top;background-size:cover}
+#zone-content-wrapper, .front #zone-content-wrapper {margin-top:0;}
 /* End of Members*/
  
  /*
@@ -112,7 +96,7 @@ footer p.terms															{font-size:11px;}
 
 #zone-preface h4		{color:#fff; text-align: center; margin:10px 0;}
 
-#zone-content-wrapper, .front #zone-content-wrapper {margin-top:0;}
+
 
 #discount_button, #offers_button, #business_button {width:32%; float:left; min-height:120px;}
 #discount_button h1, #offers_button h1 {font-size: 32px;}
