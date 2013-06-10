@@ -2,5 +2,26 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
+h1						{font-size:20px; color:#1f7ec2; margin:0 0 20px 0; line-height:1.666;}
+.front h1#page-title	{margin-bottom:10px;}
+h2, h2.block-title		{font-size:18px; color:#1f7ec2; margin:0 0 10px 0; line-height:1;}
+h3						{font-size:16px; color:#1f7ec2; margin:0 0 10px 0; line-height:1.111;}
+h4						{font-size:13px; margin:0 0 10px 0; line-height:1.333}
+.stat_body h6			{font-size:14px; color:#1f7ec2; margin:0; line-height: 1.2;}
+.stat					{font-size: 40px;}
+body, p		 			{font-size: 11px;}
+p	{margin:0 0 10px 0;}
+  header {width:720px; height:340px;}
+  .not-logged-in #region-user-first {margin-left:490px;}
+  .logo-img {margin-right:0;}
+ img#logo {width:100%; margin-top:10px;}
+ #region-preface-first {width: 100%; margin:0; padding:0;}
+ #block-block-4 .orange_button, #block-block-4 .grey_button {width:90px;}
+
+
  #block-quickmenu-main-menu {display: none;}
  #zone-content img {width:100%; height:auto}
+ p.callout				{color:#fff; font-size:24px;}
+ 
+ ul.nice-menu-down li.menuparent {padding:25px 20px;}
