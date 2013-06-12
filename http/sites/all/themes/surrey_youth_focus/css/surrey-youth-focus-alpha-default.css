@@ -52,7 +52,8 @@ footer p.terms															{font-size:11px;}
  .page-node-36 #section-header,
  .page-node-55 #section-header,
  .page-members #section-header,
- .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
+ .node-type-members-directory #section-header {{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
+
  /*End of About Us*/
  
   /*Do youth work Section*/
