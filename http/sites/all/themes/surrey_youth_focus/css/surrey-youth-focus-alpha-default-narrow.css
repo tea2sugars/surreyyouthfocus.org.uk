@@ -25,3 +25,9 @@ p	{margin:0 0 10px 0;}
  p.callout				{color:#fff; font-size:24px;}
  
  ul.nice-menu-down li.menuparent {padding:25px 20px;}
+ #discount_button, #offers_button, #business_button {
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    min-height: 150px;
+    width: 30%;
+}

@@ -108,3 +108,12 @@ footer p.terms															{font-size:11px;}
 
 #zone-content .field-type-file img.file-icon {width:16px; height:16px;}
 
+#discount_button, #offers_button, #business_button {
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    min-height: 100px;
+    width: 30%;
+}
+#offers_button {margin:0 5%;}
+#discount_button h1, #offers_button h1, #business_button h1 {font-size:16px;}
+
