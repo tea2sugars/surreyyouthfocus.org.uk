@@ -1,5 +1,6 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 #zone-content img {width:100%; height:auto;}
+body {font-family: helvetica, arial, sans-serif; font-size:81%;}
 
 /*---Typography---*/
 h1, h2, h3, h4, h5, h6 	{font-family: helvetica, arial, sans-serif; font-weight: normal; letter-spacing: 1px;}
