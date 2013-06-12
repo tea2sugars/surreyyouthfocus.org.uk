@@ -40,7 +40,7 @@ footer p.terms															{font-size:11px;}
  
  /*------------------HEADER IMAGES-----------------------*/
  /*---Default image---*/
- #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
+ #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
  /*End default*/
  
  /*About Us Section*/
@@ -52,7 +52,7 @@ footer p.terms															{font-size:11px;}
  .page-node-36 #section-header,
  .page-node-55 #section-header,
  .page-members #section-header,
- .node-type-members-directory #section-header {{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
+ .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
 
  /*End of About Us*/
  
@@ -64,7 +64,7 @@ footer p.terms															{font-size:11px;}
  .page-node-52 #section-header,
  .page-job-vacancies #section-header,
  .page-resource-directory #section-header,
- .node-type-resource-listing #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_3teens.jpg) no-repeat center top; background-size: cover;}
+ .node-type-resource-listing #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
  /*End of Do Youth Work*/
  
  /*Volunteering section*/

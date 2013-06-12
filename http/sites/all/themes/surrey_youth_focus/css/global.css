@@ -15,6 +15,8 @@ h4						{font-size:15px; margin:0 0 20px 0; line-height:1.333}
 p		 				{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
 li						{list-style: none;}
 
+blockquote p			{font-size: 18px; font-style: italic; font-family: 'Times New Roman';}
+
 a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
 a:hover 				{text-decoration: underline;}
 
