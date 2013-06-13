@@ -52,6 +52,7 @@ footer p.terms															{font-size:11px;}
  .page-node-36 #section-header,
  .page-node-55 #section-header,
  .page-members #section-header,
+<<<<<<< HEAD
  .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;} /*End of About Us*/
  
   /*Do youth work Section*/
@@ -86,6 +87,44 @@ footer p.terms															{font-size:11px;}
  .page-node-57 #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley1.jpg) no-repeat center top; background-size: cover;}
 /* End of Join us*/
 
+=======
+ .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
+
+ /*End of About Us*/
+ 
+  /*Do youth work Section*/
+ .page-node-6 #section-header,
+ .page-node-9 #section-header,
+ .page-node-10 #section-header,
+ .page-node-31 #section-header,
+ .page-node-52 #section-header,
+ .page-job-vacancies #section-header,
+ .page-resource-directory #section-header,
+ .node-type-resource-listing #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
+ /*End of Do Youth Work*/
+ 
+ /*Volunteering section*/
+ .page-node-33 #section-header,
+ .page-node-34 #section-header,
+ .page-node-35 #section-header,
+ .page-node-45 #section-header,
+ .page-node-59 #section-header,
+.page-volunteer-vacancies #section-header,
+.node-type-volunteering-vacancies #section-header,
+.page-duke-of-edinburgh-volunteer-vacancies #section-header,
+.node-type-volunteering-vacancies #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volunteer.jpg) no-repeat center top; background-size: cover;}
+/* End of volunteering*/
+
+/*Join Us section*/
+ .page-node-37 #section-header,
+ .page-node-48 #section-header,
+ .page-node-50 #section-header,
+ .page-node-51 #section-header,
+ .page-node-53 #section-header,
+ .page-node-57 #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley1.jpg) no-repeat center top; background-size: cover;}
+/* End of Join us*/
+
+>>>>>>> 7f4d4e2ee337750074e46fdf84743b343e976384
 /*Members section*/
 .page-the-uniformed-swap-shop #section-header,.node-type-swap-shop-uniformed #section-header,.page-news #section-header,.node-type-article #section-header,.page-archive #section-header,.page-e-bulletins-archive #section-header,.node-type-e-bulletin-archive #section-header,.node-type-members-offers-and-discounts #section-header,.page-node-49 #section-header,.page-node-46 #section-header,.page-node-8 #section-header,.page-node-47 #section-header,.page-node-60 #section-header,.page-node-7 #section-header,.page-node-88 #section-header,.page-node-89 #section-header,.page-node-81 #section-header,.page-node-85 #section-header{background:url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley2.jpg) no-repeat center top;background-size:cover}
 #zone-content-wrapper, .front #zone-content-wrapper {margin-top:0;}
@@ -106,3 +145,15 @@ footer p.terms															{font-size:11px;}
 
 #zone-content .field-type-file img.file-icon {width:16px; height:16px;}
 
+<<<<<<< HEAD
+=======
+#discount_button, #offers_button, #business_button {
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    min-height: 100px;
+    width: 30%;
+}
+#offers_button {margin:0 5%;}
+#discount_button h1, #offers_button h1, #business_button h1 {font-size:16px;}
+
+>>>>>>> 7f4d4e2ee337750074e46fdf84743b343e976384
