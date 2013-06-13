@@ -31,8 +31,6 @@ footer p.terms															{font-size:11px;}
 .footer-phone			{background:url(/sites/all/themes/surrey_youth_focus/images/footer_contact.jpg) no-repeat 0 10px; padding-left:30px;}
 
 
-
-
 /*---buttons---*/
 a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
 												background: #fefefd; /* Old browsers */
@@ -58,7 +56,7 @@ a.grey_button:hover								{color:#fff;
 												text-decoration: none;
 												}
 												
-a.orange_button:link, a.orange_button:visited	{color:#fff;
+a.orange_button:link, a.orange_button:visited, input[type="submit"]	{color:#fff;
 												background: #fefefd; /* Old browsers */
 												background: #dd730f; /* Old browsers */
 												background: -moz-linear-gradient(top,  #dd730f 0%, #f69b0f 100%); /* FF3.6+ */
@@ -75,13 +73,16 @@ a.orange_button:link, a.orange_button:visited	{color:#fff;
 												padding:5px 0;
 												display: inline-block;
 												text-align: center;
+												text-shadow:none;
 												}
 												
-a.orange_button:hover							{color:#fff;
+a.orange_button:hover, input[type="submit"]:hover							{color:#fff;
 												background: #DD730F; /* Old browsers */
 												border:1px solid #DD730F;
 												text-decoration: none;
 												}
+												
+input#edit-submitted-financial-questions-if-you-have-a-quote-please-attach-it-here-upload-button {width:80px; padding:2px;}
 												
 a.blue_button:link, a.blue_button:visited		{color:#fff;
 												background: #1b83b8; /* Old browsers */
@@ -223,6 +224,15 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 
 #galleria-1, .galleria-container {height:100%;width:100%;}
 .galleria-container {background:#f9f9f9; outline: 1px solid #dcdcdc; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; margin-bottom:10px; }
+
+/*grants form*/
+.page-node-114 fieldset {width:100%;}
+.page-node-114 fieldset fieldset {margin:0;}
+
+.page-node-114 fieldset legend {background: #1f7ec2; color: white; font-size: 14px; width:100%; padding:5px 10px; margin:10px 0;}
+
+.page-node-114 fieldset fieldset fieldset legend {background: #0e92f0; color: #fff; font-size: 12px; width:100%; margin:0;}
+
 
 /* Responsive stuff */
 #block-nice-menus-1 {display:none;}
