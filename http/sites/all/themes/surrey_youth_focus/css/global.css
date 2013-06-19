@@ -14,7 +14,7 @@ h4						{font-size:15px; margin:0 0 20px 0; line-height:1.333}
 .stat_body h6			{font-size:14px; color:#1f7ec2; margin:0;}
 p		 				{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
 li						{list-style: none;}
-#zone-content-wrapper li {list-style: disc;}
+#region-content li {list-style: disc;}
 
 blockquote p			{font-size: 18px; font-style: italic; font-family: 'Times New Roman';}
 
@@ -41,7 +41,7 @@ a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
 												background: -o-linear-gradient(top,  #fefefd 0%,#fefefd 100%); /* Opera 11.10+ */
 												background: -ms-linear-gradient(top,  #fefefd 0%,#fefefd 100%); /* IE10+ */
 												background: linear-gradient(to bottom,  #fefefd 0%,#fefefd 100%); /* W3C */
-												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#fefefd',GradientType=0 ); /* IE6-9 */
+												background: #fefefd\9;
 												border:1px solid #dddddd;
 												-webkit-border-radius: 5px;
 												border-radius: 5px;
@@ -58,15 +58,14 @@ a.grey_button:hover								{color:#fff;
 												}
 												
 a.orange_button:link, a.orange_button:visited, input[type="submit"]	{color:#fff;
-												background: #fefefd; /* Old browsers */
-												background: #dd730f; /* Old browsers */
+												
 												background: -moz-linear-gradient(top,  #dd730f 0%, #f69b0f 100%); /* FF3.6+ */
 												background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd730f), color-stop(100%,#f69b0f)); /* Chrome,Safari4+ */
 												background: -webkit-linear-gradient(top,  #dd730f 0%,#f69b0f 100%); /* Chrome10+,Safari5.1+ */
 												background: -o-linear-gradient(top,  #dd730f 0%,#f69b0f 100%); /* Opera 11.10+ */
 												background: -ms-linear-gradient(top,  #dd730f 0%,#f69b0f 100%); /* IE10+ */
 												background: linear-gradient(to bottom,  #dd730f 0%,#f69b0f 100%); /* W3C */
-												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd730f', endColorstr='#f69b0f',GradientType=0 ); /* IE6-9 */
+												background: #dd730f\9;
 												border:1px solid #DD730F;
 												-webkit-border-radius: 5px;
 												border-radius: 5px;
@@ -93,7 +92,7 @@ a.blue_button:link, a.blue_button:visited		{color:#fff;
 												background: -o-linear-gradient(top,  #1b83b8 21%,#195f81 100%); /* Opera 11.10+ */
 												background: -ms-linear-gradient(top,  #1b83b8 21%,#195f81 100%); /* IE10+ */
 												background: linear-gradient(to bottom,  #1b83b8 21%,#195f81 100%); /* W3C */
-												filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b83b8', endColorstr='#195f81',GradientType=0 ); /* IE6-9 */
+												background:#1b83b8\9;
 												border:1px solid #1b83b8;
 												-webkit-border-radius: 0px 0px 5px 5px;
 												border-radius: 0px 0px 5px 5px;
@@ -154,13 +153,13 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 
 /*---blocks---*/
-#block-block-4 			{background: rgba(31,126,194,0.85); padding:10px; margin-top:30px;}
+#block-block-4 			{background: rgba(31,126,194,0.85); background:#1b83b8\9; padding:10px; margin-top:30px;}
 #block-block-4 .orange_button, #block-block-4 .grey_button {width:45%;}
 #block-block-2 {margin-top:10px;}
 #block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
 #block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
 #block-block-7 .block-inner, #block-block-21 .block-inner {padding:10px;}
-#block-block-12 .block-inner {background: rgba(0,0,0,0.6); height:20px; text-align: center; padding:5px 0;}
+#block-block-12 .block-inner {background: rgba(0,0,0,0.6); background:#000000\9; height:20px; text-align: center; padding:5px 0;}
 #block-block-18, #block-block-19, #block-block-20 {float:left; width:29%; -webkit-border-radius: 5px; border-radius: 5px; background:#f9f9f9; border:1px solid #dcdcdc;}
 #block-block-18, #block-block-19 {height:360px;}
 #block-block-18 .block-inner, #block-block-19 .block-inner, #block-block-20 .block-inner {padding:10px;}
