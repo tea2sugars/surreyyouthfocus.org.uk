@@ -155,7 +155,8 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 /*---blocks---*/
 #block-block-4 			{background: rgba(31,126,194,0.85); background:#1b83b8\9; padding:10px; margin-top:30px;}
 #block-block-4 .orange_button, #block-block-4 .grey_button {width:45%;}
-#block-block-2 {margin-top:10px;}
+#block-block-2 {margin-top:10px; }
+#block-block-8 {border-top:1px solid #dcdcdc; padding:10px 0; margin-top:10px;}
 #block-views-news-block	{border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:10px 0; margin:0 0 10px 0;}
 #block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
 #block-block-7 .block-inner, #block-block-21 .block-inner {padding:10px;}
@@ -238,6 +239,8 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 /* Responsive stuff */
 #block-nice-menus-1 {display:none;}
 #block-jump-menu-jump-menu-m-main-menu {margin-top:10px;}
+
+
 
 
 

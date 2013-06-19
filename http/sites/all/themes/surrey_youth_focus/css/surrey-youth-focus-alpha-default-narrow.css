@@ -37,3 +37,7 @@ p	{margin:0 0 10px 0;}
 #block-views-members-offers-block p a:link, #block-views-members-offers-block-1 p a:link, #block-views-members-offers-block-2 p a:link, #block-views-members-offers-block p a:visited, #block-views-members-offers-block-1 p a:visited, #block-views-memberss-offers-block-2 p a:visited {font-size:12px;}
 
 #discount_button h1, #offers_button h1, #business_button h1 {font-size:14px;}
+
+#search-block-form input[type="submit"] {width:50px; font-size: 10px;}
+#edit-search-block-form--2 {width:80px;}
+.page-search #region-content #search-form #edit-keys {width:250px;}
