@@ -32,8 +32,8 @@ footer p.terms															{font-size:11px;}
  header {margin: 0 auto; height:400px;}
  #zone-user {display:inherit;}
  
-#block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; height:240px;}
-#block-views-members-offers-block-2 .views-row {height:140px;}
+#block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; height:320px;}
+#block-views-members-offers-block-2 .views-row {height:180px;}
  
  #block-nice-menus-1 {display: inherit;}
  #block-jump-menu-jump-menu-m-main-menu {display:none;}
@@ -119,4 +119,8 @@ footer p.terms															{font-size:11px;}
 }
 #offers_button {margin:0 5%;}
 #discount_button h1, #offers_button h1, #business_button h1 {font-size:16px;}
+
+.view-members-offers .views-field-field-image {height:180px;}
+
+#block-views-members-offers-block a:link, #block-views-members-offers-block-1 a:link, #block-views-members-offers-block-2 a:link, #block-views-members-offers-block a:visited, #block-views-members-offers-block-1 a:visited, #block-views-memberss-offers-block-2 a:visited {font-size:16px; color: #1f7ec2; font-weight: normal;}
 

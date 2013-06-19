@@ -24,9 +24,8 @@ p	{margin:0 0 10px 0;}
  #zone-content img {width:100%; height:auto}
  p.callout				{color:#fff; font-size:24px;}
  
-<<<<<<< HEAD
- ul.nice-menu-down li.menuparent {padding:25px 20px;}
-=======
+
+
  ul.nice-menu-down li.menuparent {padding:25px 20px;}
  #discount_button, #offers_button, #business_button {
     border-radius: 5px 5px 5px 5px;
@@ -34,4 +33,7 @@ p	{margin:0 0 10px 0;}
     min-height: 150px;
     width: 30%;
 }
->>>>>>> 7f4d4e2ee337750074e46fdf84743b343e976384
+
+#block-views-members-offers-block p a:link, #block-views-members-offers-block-1 p a:link, #block-views-members-offers-block-2 p a:link, #block-views-members-offers-block p a:visited, #block-views-members-offers-block-1 p a:visited, #block-views-memberss-offers-block-2 p a:visited {font-size:12px;}
+
+#discount_button h1, #offers_button h1, #business_button h1 {font-size:14px;}
