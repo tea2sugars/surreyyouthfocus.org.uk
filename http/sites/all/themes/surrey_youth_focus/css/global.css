@@ -243,6 +243,10 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 /*resource directory*/
 .field-name-field-email-address .field-item {display: block;}
 
+/*job Vacancies*/
+.view-job-vacancies .views-row {margin-bottom: 20px;}
+.view-job-vacancies .views-row h3 {margin:0;}
+
 
 
 
