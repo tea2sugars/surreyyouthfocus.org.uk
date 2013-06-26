@@ -128,3 +128,7 @@ footer p.terms															{font-size:11px;}
 #search-block-form input[type="submit"] {width:70px;}
 #edit-search-block-form--2 {width:180px;}
 
+/*resource directory*/
+.field-name-field-email-address .field-item, .field-name-field-date .field-item {display: block;}
+
+
