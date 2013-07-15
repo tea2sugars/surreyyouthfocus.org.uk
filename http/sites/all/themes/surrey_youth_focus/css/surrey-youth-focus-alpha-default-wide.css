@@ -6,3 +6,6 @@ header {width:1200px;}
 .node-type-resource-listing article.node-resource-listing .field-label, .node-volunteering-vacancies .field-label {width:350px; }
 
 #zone-content img.BITC {width:200px;}
+
+#zone-content-wrapper #zone-content .region-inner {margin-right:50px;}
+
