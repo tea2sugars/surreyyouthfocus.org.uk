@@ -186,7 +186,7 @@ footer {background:#000; color:#fff; padding:20px 0; margin-top:40px;}
 /*Members Directory*/
 .view-members-directory td {vertical-align: top; width:20%;}
 .view-members-directory .views-field-field-image {height:80px;}
-.view-members-directory .views-field-title {height:40px;}
+.view-members-directory .views-field-title {min-height:40px; overflow: visible;}
 ..view-members-directory .views-field-body {height:150px;}
 
 /*Membership*/

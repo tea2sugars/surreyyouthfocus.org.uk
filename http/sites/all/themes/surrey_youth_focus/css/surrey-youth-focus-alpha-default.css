@@ -11,6 +11,7 @@ h3						{font-size:18px; color:#1f7ec2; margin:0 0 20px 0; line-height:1.111;}
 h4						{font-size:15px; margin:0 0 20px 0; line-height:1.333}
 .stat_body h6			{font-size:18px; color:#1f7ec2; margin:0;}
 p		 				{font-family: helvetica, arial, sans-serif; font-weight: normal; color: #6b6b6b; font-size: 1em; line-height:1.538; margin:0 0 20px 0;}
+td p 					{margin-bottom:0;}
 li						{list-style: none;}
 
 a:link, a:visited 		{color:#f69b0f; font-weight: bold; text-decoration: none;}
