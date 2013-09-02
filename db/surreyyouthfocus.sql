@@ -9,7 +9,7 @@
  Target Server Version : 50169
  File Encoding         : utf-8
 
- Date: 09/02/2013 11:54:09 AM
+ Date: 09/02/2013 16:13:26 PM
 */
 
 SET NAMES utf8;
@@ -444,7 +444,7 @@ CREATE TABLE `date_format_type` (
 DROP TABLE IF EXISTS `date_formats`;
 CREATE TABLE `date_formats` (
   `dfid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The date format identifier.',
-  `format` varchar(100) NOT NULL COMMENT 'The date format string.',
+  `format` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT 'The date format string.',
   `type` varchar(64) NOT NULL COMMENT 'The date format type, e.g. medium.',
   `locked` tinyint(4) NOT NULL DEFAULT '0' COMMENT 'Whether or not this format can be modified.',
   PRIMARY KEY (`dfid`),
@@ -3272,7 +3272,7 @@ CREATE TABLE `file_managed` (
   KEY `uid` (`uid`),
   KEY `status` (`status`),
   KEY `timestamp` (`timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=377 DEFAULT CHARSET=utf8 COMMENT='Stores information for uploaded files.';
+) ENGINE=InnoDB AUTO_INCREMENT=379 DEFAULT CHARSET=utf8 COMMENT='Stores information for uploaded files.';
 
 -- ----------------------------
 --  Table structure for `file_usage`
@@ -3333,7 +3333,7 @@ CREATE TABLE `flood` (
   PRIMARY KEY (`fid`),
   KEY `allow` (`event`,`identifier`,`timestamp`),
   KEY `purge` (`expiration`)
-) ENGINE=InnoDB AUTO_INCREMENT=1247 DEFAULT CHARSET=utf8 COMMENT='Flood controls the threshold of events, such as the...';
+) ENGINE=InnoDB AUTO_INCREMENT=1248 DEFAULT CHARSET=utf8 COMMENT='Flood controls the threshold of events, such as the...';
 
 -- ----------------------------
 --  Table structure for `galleria_optionset`
@@ -3385,6 +3385,7 @@ DROP TABLE IF EXISTS `image_styles`;
 CREATE TABLE `image_styles` (
   `isid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for an image style.',
   `name` varchar(255) NOT NULL COMMENT 'The style name.',
+  `label` varchar(255) NOT NULL DEFAULT '' COMMENT 'The style administrative name.',
   PRIMARY KEY (`isid`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Stores configuration options for image styles.';
@@ -3435,7 +3436,7 @@ CREATE TABLE `menu_links` (
   KEY `menu_plid_expand_child` (`menu_name`,`plid`,`expanded`,`has_children`),
   KEY `menu_parents` (`menu_name`,`p1`,`p2`,`p3`,`p4`,`p5`,`p6`,`p7`,`p8`,`p9`),
   KEY `router_path` (`router_path`(128))
-) ENGINE=InnoDB AUTO_INCREMENT=637 DEFAULT CHARSET=utf8 COMMENT='Contains the individual links within a menu.';
+) ENGINE=InnoDB AUTO_INCREMENT=805 DEFAULT CHARSET=utf8 COMMENT='Contains the individual links within a menu.';
 
 -- ----------------------------
 --  Table structure for `menu_router`
@@ -3726,7 +3727,7 @@ CREATE TABLE `queue` (
   PRIMARY KEY (`item_id`),
   KEY `name_created` (`name`,`created`),
   KEY `expire` (`expire`)
-) ENGINE=InnoDB AUTO_INCREMENT=1244 DEFAULT CHARSET=utf8 COMMENT='Stores items in queues.';
+) ENGINE=InnoDB AUTO_INCREMENT=1388 DEFAULT CHARSET=utf8 COMMENT='Stores items in queues.';
 
 -- ----------------------------
 --  Table structure for `rdf_mapping`
@@ -3869,7 +3870,7 @@ DROP TABLE IF EXISTS `sequences`;
 CREATE TABLE `sequences` (
   `value` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The value of the sequence.',
   PRIMARY KEY (`value`)
-) ENGINE=InnoDB AUTO_INCREMENT=94 DEFAULT CHARSET=utf8 COMMENT='Stores IDs.';
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='Stores IDs.';
 
 -- ----------------------------
 --  Table structure for `sessions`
@@ -4213,8 +4214,9 @@ CREATE TABLE `watchdog` (
   `timestamp` int(11) NOT NULL DEFAULT '0' COMMENT 'Unix timestamp of when event occurred.',
   PRIMARY KEY (`wid`),
   KEY `type` (`type`),
-  KEY `uid` (`uid`)
-) ENGINE=InnoDB AUTO_INCREMENT=15466 DEFAULT CHARSET=utf8 COMMENT='Table that contains logs of all system events.';
+  KEY `uid` (`uid`),
+  KEY `severity` (`severity`)
+) ENGINE=InnoDB AUTO_INCREMENT=15513 DEFAULT CHARSET=utf8 COMMENT='Table that contains logs of all system events.';
 
 -- ----------------------------
 --  Table structure for `webform`
