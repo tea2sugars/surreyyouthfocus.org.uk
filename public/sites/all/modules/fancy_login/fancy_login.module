@@ -106,6 +106,7 @@ function fancy_login_page_alter(&$page)
 			'<div id="fancy_login_login_box">' .
 			'<div id="fancy_login_form_contents">' .
 			'<a href="#" id="fancy_login_close_button">X</a>' .
+			'<p class="user_text">If you have not registered on this site to use the members area please <a href="mailto:info@surreyyouthfocus.org.uk">contact us</a>.</p>' . 
 			drupal_render(drupal_get_form('user_login')) .
 			$links .
 			'</div>' .
