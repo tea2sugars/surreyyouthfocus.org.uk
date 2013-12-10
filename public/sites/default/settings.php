@@ -215,11 +215,11 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'db494553620',
-      'username' => 'dbo494553620',
-      'password' => 'tea2sugars',
-      'host' => 'db494553620.db.1and1.com',
-      'port' => '',
+      'database' => 'SYF_DEV',
+      'username' => 'root',
+      'password' => 'root',
+      'host' => '127.0.0.1',
+      'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
     ),
