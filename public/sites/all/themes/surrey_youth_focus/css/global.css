@@ -157,7 +157,7 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 #block-block-4 .orange_button, #block-block-4 .grey_button {width:45%;}
 #block-block-2 {margin-top:10px; }
 #block-block-8 {border-top:1px solid #dcdcdc; padding:10px 0; margin-top:10px;}
-#block-views-news-block	{border-top:1px solid #333; border-bottom:1px solid #333; padding:10px 0; margin:0 0 10px 0;}
+#block-views-news-block	{border-top:1px solid #8c8c8c; border-bottom:1px solid #333; padding:10px 0; margin:0 0 10px 0;}
 #block-easy-breadcrumb-easy-breadcrumb {margin-top:10px;}
 #block-block-7 .block-inner, #block-block-21 .block-inner {padding:10px;}
 #block-block-12 .block-inner {background: rgba(0,0,0,0.6); background:#000000\9; height:20px; text-align: center; padding:5px 0;}
@@ -166,15 +166,19 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 #block-block-18 .block-inner, #block-block-19 .block-inner, #block-block-20 .block-inner {padding:10px;}
 #block-block-19 .orange_button {margin-top:16px;}
 #block-block-19 {margin:0 5%;}
-#block-views-volunteer-vacancies-block, #block-views-volunteer-vacancies-block-1	{border-bottom:1px solid #333; padding:10px 0; margin:0 0 10px 0;}
+#block-views-volunteer-vacancies-block, #block-views-volunteer-vacancies-block-1	{border-bottom:1px solid #8c8c8c; padding:10px 0; margin:0 0 10px 0;}
 #block-block-25, #block-block-28  {margin-top:20px; padding:10px;}
-#block-block-28 {outline:1px solid #333; margin-bottom:20px;}
+#block-block-28 {outline:1px solid #8c8c8c; margin-bottom:20px;}
 /*new overwrites*/
-#region-sidebar-second .block {border-top:none; border-bottom:1px solid #333; padding:10px;}
+#region-sidebar-second .block {border-top:none; border-bottom:1px solid #8c8c8c; padding:10px;}
 
 .front #region-content #block-block-26,
 .front #region-content #block-block-27,
-.front #region-content #block-block-29 {outline:1px solid #333; margin-bottom: 20px; padding:10px;}
+#block-views-homepage-news-block,
+#block-views-members-directory-block-1,
+.front #region-content #block-block-29 {outline:1px solid #8c8c8c; margin-bottom: 20px; padding:10px;}
+#block-views-members-directory-block-1 .views-field-field-image {height:auto;}
+#block-views-members-directory-block-1 .views-field-field-image img {height:auto; width:60%;}
 
 #region-sidebar-first .block-title, .front #region-content .block-title {color:white; font-size: 16px; background:#1b83b8; margin:-12px -10px 10px -10px; padding:10px 20px; }
 
