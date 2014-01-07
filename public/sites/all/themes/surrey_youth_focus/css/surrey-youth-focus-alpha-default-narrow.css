@@ -50,5 +50,7 @@ p	{margin:0 0 10px 0;}
 #block-block-14 td {padding: 0;}
 #block-views-contact-team-block {width:460px; float:left;}
 #block-views-contact-team-block li {margin:0 5px 10px 5px;}
+.view-contact-team .item-list ul li .views-field-field-job-description  {margin-bottom:5px; height:120px;}
+
 
 
