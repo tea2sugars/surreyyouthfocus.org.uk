@@ -26,3 +26,4 @@ p.callout				{color:#fff; font-size:36px;}
 #block-views-contact-team-block {width:620px; float:left;}
 .view-contact-team .item-list ul li .views-field-field-job-description  {margin-bottom:5px; height:120px;}
 
+.page-members #region-content .views-row {min-height:200px;}
