@@ -5,9 +5,9 @@ configure = admin/config/content/node-view-permissions
 
 core = 7.x
 
-; Information added by drupal.org packaging script on 2013-06-30
-version = "7.x-1.2"
+; Information added by Drupal.org packaging script on 2014-07-08
+version = "7.x-1.5"
 core = "7.x"
 project = "node_view_permissions"
-datestamp = "1372586752"
+datestamp = "1404800028"
 

@@ -1,7 +1,12 @@
 <?php
 
 /**
- * Simplemeta settings form
+ * @file
+ * Administration
+ */
+
+/**
+ * SimpleMeta settings form builder.
  */
 function simplemeta_settings_form($form, &$form_state) {
   $form['simplemeta_form_enable'] = array(
@@ -21,22 +26,33 @@ function simplemeta_settings_form($form, &$form_state) {
   return system_settings_form($form);
 }
 
+/**
+ * Menu callback; show list of saved SimpleMeta configurations. 
+ * 
+ * @return string
+ *   themed output
+ */
 function simplemeta_meta_list() {
   $query = db_select('simplemeta', 's')
     ->extend('PagerDefault')
     ->fields('s')
     ->orderBy('s.sid', 'DESC')->limit(20);
   $result = $query->execute();
-  
+
   $items = array();
   while ($meta = $result->fetchObject()) {
     $meta->data = unserialize($meta->data);
     $items[] = $meta;
   }
-  
+
   return theme('simplemeta_meta_list', array('items' => $items)) . theme('pager');
 }
-
+/**
+ * Menu callback for creating new SimpleMeta configurations.
+ * 
+ * @return array
+ *   form structure to render
+ */
 function simplemeta_add() {
   $meta = new stdClass();
   $meta->data = array();
@@ -44,21 +60,27 @@ function simplemeta_add() {
   return drupal_get_form('simplemeta_meta_form', $meta);
 }
 
+/**
+ * SimpleMeta deletion confirmation form builder.
+ */
 function simplemeta_meta_delete_confirm($form, &$form_state, $meta) {
   $form['sid'] = array(
-    '#type' => 'value', 
+    '#type' => 'value',
     '#value' => $meta->sid,
   );
 
-  return confirm_form($form, 
-    t('Are you sure you want to delete Simplemeta %sid?', array('%sid' => $meta->sid)), 
-    isset($_GET['destination']) ? $_GET['destination'] : 'admin/content/simplemeta/' . $meta->sid . '/edit', 
-    t('This action cannot be undone.'), 
-    t('Delete'), 
+  return confirm_form($form,
+    t('Are you sure you want to delete Simplemeta %sid?', array('%sid' => $meta->sid)),
+    isset($_GET['destination']) ? $_GET['destination'] : 'admin/content/simplemeta/' . $meta->sid . '/edit',
+    t('This action cannot be undone.'),
+    t('Delete'),
     t('Cancel')
   );
 }
 
+/**
+ * SimpleMeta deletion confirmation form submit callback.
+ */
 function simplemeta_meta_delete_confirm_submit($form, &$form_state) {
   if ($form_state['values']['confirm']) {
     simplemeta_meta_delete($form_state['values']['sid']);
@@ -66,4 +88,3 @@ function simplemeta_meta_delete_confirm_submit($form, &$form_state) {
   }
   $form_state['redirect'] = 'admin/content/simplemeta/list';
 }
-

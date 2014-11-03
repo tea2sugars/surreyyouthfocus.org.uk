@@ -1,9 +1,13 @@
 <?php
 
 /**
- * @file theming
+ * @file
+ * Theming
  */
 
+/**
+ * Output list of saved SimpleMeta configurations.
+ */
 function theme_simplemeta_meta_list($vars) {
   $items = $vars['items'];
   $header = array(t('Path'), t('Alias'));
@@ -11,8 +15,8 @@ function theme_simplemeta_meta_list($vars) {
   if ($language_enabled) {
     $header[] = t('Language');
   }
-  $header[] =  t('Action');
-  
+  $header[] = t('Action');
+
   $rows = array();
   foreach ($items as $meta) {
     $row = array();
@@ -22,7 +26,7 @@ function theme_simplemeta_meta_list($vars) {
     $row[] = (!$pattern) ? l($meta->path, $meta->path) : check_plain($meta->path);
     $row[] = ((!$pattern) && ($alias != $meta->path)) ? l($alias, $meta->path) : '-';
     if ($language_enabled) {
-      // langcode... there is no need to sanitize it
+      // Langcode... there is no need to sanitize it.
       $row[] = ($meta->language) ? $meta->language : '-';
     }
     $row[] = l(t('Edit'), 'admin/content/simplemeta/' . $meta->sid . '/edit') . ' | ' . l(t('Delete'), 'admin/content/simplemeta/' . $meta->sid . '/delete');
@@ -34,24 +38,34 @@ function theme_simplemeta_meta_list($vars) {
   return theme('table', array('header' => $header, 'rows' => $rows));
 }
 
+/**
+ * Theme meta title for output in the page's head.
+ * 
+ * Title is set via simplemeta_preprocess_html() i.e. differently from other
+ * so no need to return anything, just return empty string.
+ */
 function theme_simplemeta_meta_title($vars) {
   $meta = $vars['meta'];
   return '';
 }
 
+/**
+ * Theme meta description for output in the page's head.
+ */
 function theme_simplemeta_meta_description($vars) {
   $meta = $vars['meta'];
-   if (!empty($meta->data['description'])) {
-     // @todo think about
-     return '<meta name="description" content="' . trim(strip_tags(decode_entities($meta->data['description']))) . '" />';
-   }
-   return '';
+  if (!empty($meta->data['description'])) {
+    return '<meta name="description" content="' . trim(strip_tags(decode_entities($meta->data['description']))) . '" />';
+  }
+  return '';
 }
 
+/**
+ * Theme meta keywords for output in the page's head.
+ */
 function theme_simplemeta_meta_keywords($vars) {
   $meta = $vars['meta'];
   if (!empty($meta->data['keywords'])) {
-    // @todo think about
     return '<meta name="keywords" content="' . trim(strip_tags(decode_entities($meta->data['keywords']))) . '" />';
   }
   return '';
