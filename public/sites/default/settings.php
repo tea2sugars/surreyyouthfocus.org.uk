@@ -215,7 +215,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'SYF_DEV',
+      'database' => 'syf',
       'username' => 'root',
       'password' => 'root',
       'host' => '127.0.0.1',
