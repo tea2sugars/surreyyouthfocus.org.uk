@@ -262,7 +262,7 @@ function webform2pdf_admin_settings($form, &$form_state) {
     '#type' => 'text_format',
     '#base_type' => 'textarea',
     '#title' => t('Page body'),
-    '#format' => isset($edit['format']) ? $edit['format'] : NULL,
+    '#format' => isset($default['format']) ? $default['format'] : NULL,
     '#rows' => '10',
     '#default_value' => $default['p_body'],
     '#description' => t("The content of the PDF file can be defined here, the text can be formatted with HTML and CSS tags. The form elements can be referred with the following special strings: !vars."

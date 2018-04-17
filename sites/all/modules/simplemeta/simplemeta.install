@@ -1,9 +1,13 @@
 <?php
 
 /**
- *  Implements hook_install()
+ * @file
+ * Installation hooks and helper functions
  */
 
+/**
+ * Implements hook_install().
+ */
 function simplemeta_install() {
   db_update('system')
     ->fields(array('weight' => 10))
@@ -13,9 +17,8 @@ function simplemeta_install() {
 }
 
 /**
- * Implements hook_schema() 
+ * Implements hook_schema().
  */
-
 function simplemeta_schema() {
   $schema = array();
   $schema['simplemeta'] = array(
@@ -34,8 +37,8 @@ function simplemeta_schema() {
       ),
       'data' => array(
         'description' => 'serialized array of meta data',
-        'type' => 'blob', 
-        'size' => 'big', 
+        'type' => 'blob',
+        'size' => 'big',
         'not null' => TRUE,
       ),
       'language' => array(
@@ -62,18 +65,16 @@ function simplemeta_schema() {
 }
 
 /**
- * Implements hook_uninstall()
+ * Implements hook_uninstall().
  */
-
 function simplemeta_uninstall() {
   variable_del('simplemeta_form_enable');
   variable_del('simplemeta_language_enable');
 }
 
 /**
- * Initial update for D7 version 
+ * Initial update for D7 version.
  */
-
 function simplemeta_update_7000() {
-  // just update {system}.schema_version
+  // Just update {system}.schema_version.
 }

@@ -1,3 +1,8 @@
+/**
+ * @file
+ * Show/hide functionality for SimpleMeta on-page form.
+ */
+
 (function ($) {
   var formHidden = false;
   Drupal.behaviors.simplemeta = {
@@ -9,13 +14,13 @@
             close = $('<span class="form-close"></span>').prependTo(form);
         close.text(Drupal.t('Meta'));
         if (!formHidden) {
-          form.addClass('hidden').css({left: (-form.outerWidth()) + 'px'});
+          form.addClass('simplemeta-hidden').css({left: (-form.outerWidth()) + 'px'});
           formHidden = true;
         }
 
         close.click(function (event) {
           var $this = $(this);
-          if (form.hasClass('hidden')) {
+          if (form.hasClass('simplemeta-hidden')) {
             form.stop(true).animate({left: 0});
             $this.text(Drupal.t('Close'));
           }
@@ -23,7 +28,7 @@
             form.stop(true).animate({left: -form.outerWidth()});
             $this.text(Drupal.t('Meta'));
           }
-          form.toggleClass('hidden');
+          form.toggleClass('simplemeta-hidden');
         });
       });
       forms.addClass('simplemeta-processed');
