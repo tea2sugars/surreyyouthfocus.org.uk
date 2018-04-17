@@ -31,7 +31,7 @@ footer p, footer p.terms a:link, footer p.terms a:visited				{color:#fff;}
 footer p.terms															{font-size:11px;}
 .footer-phone			{background:url(/sites/all/themes/surrey_youth_focus/images/footer_contact.jpg) no-repeat 0 10px; padding-left:30px;}
 
-
+.logged-in a.grey_button.member-clear {display:none !important;}
 /*---buttons---*/
 a.grey_button:link, a.grey_button:visited		{color:#6b6b6b;
 												background: #fefefd; /* Old browsers */
@@ -133,8 +133,8 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {background: none;}
 
 
 /*---Sections----*/
-/*.front #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}*/
-#section-header 		{background-image: none; background: #000; }
+/*.front #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/dummer_image.jpg) no-repeat center top; background-size: cover;}
+#section-header 		{background-image: none; background: #000; }*/
 
 /*---Regions---*/
 .region-header-second-inner {margin-right:-10px;}

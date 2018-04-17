@@ -41,58 +41,117 @@ footer p.terms															{font-size:11px;}
  
  /*------------------HEADER IMAGES-----------------------*/
  /*---Default image---*/
- #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
+#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_changetheworld.jpg) no-repeat center top; background-size: cover;}
  /*End default*/
  
- /*About Us Section*/
- .page-node-13 #section-header,
- .page-node-2 #section-header,
- .page-node-28 #section-header,
- .page-node-29 #section-header,
- .page-node-32 #section-header,
- .page-node-36 #section-header,
- .page-node-55 #section-header,
- .page-members #section-header,
- .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;} /*End of About Us*/
- 
-  /*Do youth work Section*/
- .page-node-6 #section-header,
- .page-node-9 #section-header,
- .page-node-10 #section-header,
- .page-node-31 #section-header,
- .page-node-52 #section-header,
- .page-job-vacancies #section-header,
- .page-resource-directory #section-header,
- .node-type-resource-listing #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_girls.jpg) no-repeat center top; background-size: cover;}
- /*End of Do Youth Work*/
- 
- /*Volunteering section*/
- .page-node-33 #section-header,
- .page-node-34 #section-header,
- .page-node-35 #section-header,
- .page-node-45 #section-header,
- .page-node-59 #section-header,
-.page-volunteer-vacancies #section-header,
-.node-type-volunteering-vacancies #section-header,
-.page-duke-of-edinburgh-volunteer-vacancies #section-header,
-.node-type-volunteering-vacancies #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volunteer.jpg) no-repeat center top; background-size: cover;}
-/* End of volunteering*/
+ /* Logged in Members Page / default pages*/
+.page-node-338 #section-header,
+.page-node-296 #section-header,
+.page-node-284 #section-header,
+.page-node-297 #section-header,
+.page-node-357 #section-header,
+.page-node-359 #section-header,
+.page-node-350 #section-header,
+.page-node-347 #section-header,
+.page-node-349 #section-header,
+.page-node-429 #section-header,
+.page-node-428 #section-header,
+.page-node-384 #section-header,
+.page-node-358 #section-header,
+.page-node-277 #section-header,
+.page-node-357 #section-header,
+.page-node-369 #section-header,
+.page-node-358 #section-header,
+.page-node-359 #section-header,
+.page-node-364 #section-header,
+.page-node-370 #section-header,
+.page-node-60 #section-header,
+.page-node-88 #section-header,
+.page-node-222 #section-header,
+.page-archive #section-header,
+.page-featured-articles #section-header,
+.page-e-bulletins-archive #section-header
+ {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_members.jpg) no-repeat center top; background-size: cover;}
 
-/*Join Us section*/
- .page-node-37 #section-header,
- .page-node-48 #section-header,
- .page-node-50 #section-header,
- .page-node-51 #section-header,
- .page-node-53 #section-header,
- .page-node-57 #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_3teens.jpg) no-repeat center top; background-size: cover;}
-/* End of Join us*/ 
-
- .node-type-members-directory #section-header {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_jumping.jpg) no-repeat center top; background-size: cover;}
-
- /*End of About Us*/
  
-/*Members section*/
-.page-the-uniformed-swap-shop #section-header,.node-type-swap-shop-uniformed #section-header,.page-news #section-header,.node-type-article #section-header,.page-archive #section-header,.page-e-bulletins-archive #section-header,.node-type-e-bulletin-archive #section-header,.node-type-members-offers-and-discounts #section-header,.page-node-49 #section-header,.page-node-46 #section-header,.page-node-8 #section-header,.page-node-47 #section-header,.page-node-60 #section-header,.page-node-7 #section-header,.page-node-88 #section-header,.page-node-89 #section-header,.page-node-81 #section-header,.page-node-85 #section-header{background:url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley2.jpg) no-repeat center top;background-size:cover}
+ /*Inspiring*/
+  .page-node-497 #section-header,
+   .page-node-48 #section-header,
+    .page-node-57 #section-header
+   {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_homepage_images-new_boy.jpg) no-repeat center top; background-size: cover;}
+   
+    /*Empowering*/
+  .page-node-528 #section-header,
+   .page-node-501 #section-header,
+    .page-node-498 #section-header
+   {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_empoweringyouth.jpg) no-repeat center top; background-size: cover;}
+   
+ /*About*/
+ 
+   .page-node-13 #section-header,
+   .page-node-2 #section-header,
+    .page-node-36 #section-header,
+    .page-node-126 #section-header,
+    .page-node-28 #section-header,
+    .page-node-37 #section-header,
+    .page-node-29 #section-header,
+    .page-node-55 #section-header,
+    .page-news #section-header
+   {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_aboutus.jpg) no-repeat center top; background-size: cover;}
+
+ /*Join Us*/
+ 
+   .page-node-51 #section-header,
+   .page-node-50 #section-header,
+    .page-node-53 #section-header,
+    .page-node-81 #section-header,
+    .page-node-298 #section-header,
+    .page-node-278 #section-header,
+    .page-node-502 #section-header,
+    .page-node-412 #section-header,
+    .page-node-520 #section-header,
+    .page-node-113 #section-header,
+        .page-node-408 #section-header,
+            .page-node-593 #section-header,
+                .page-node-544 #section-header
+   {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_aboutus.jpg) no-repeat center top; background-size: cover;}
+      
+    /*Championing*/
+   .page-node-375 #section-header,
+   .page-node-46 #section-header,
+    .page-node-9 #section-header,
+    .page-node-376 #section-header,
+    .page-node-377 #section-header,
+    .page-node-47 #section-header,
+    .page-node-10 #section-header,
+    .page-node-31 #section-header,
+    .page-node-6 #section-header,
+    .page-node-52 #section-header,
+    .page-node-89 #section-header,
+    .page-node-46 #section-header,
+    .page-node-499 #section-header,
+    .page-node-49 #section-header,
+    .page-node-34 #section-header,
+    .page-node-493 #section-header,
+    .page-resource-directory #section-header,
+    .page-members #section-header,
+    .node-type-members-directory #section-header,
+    .page-associate-members #section-header,
+    .page-partners #section-header,
+    .page-job-vacancies #section-header,
+    .page-volunteer-vacancies #section-header,
+    .page-job-members #section-header,
+    .node-type-volunteering-vacancies #section-header,
+    .node-type-resource-listing #section-header,
+    .node-type-job-vacancies #section-header
+   {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_championing_youth.jpg) no-repeat center top; background-size: cover;}
+
+
+
+ 
+  
+/*Members section
+.page-the-uniformed-swap-shop #section-header,.node-type-swap-shop-uniformed #section-header, .node-type-article #section-header,.page-archive #section-header,.page-e-bulletins-archive #section-header,.node-type-e-bulletin-archive #section-header,.node-type-members-offers-and-discounts #section-header,.page-node-49 #section-header,.page-node-46 #section-header,.page-node-8 #section-header,.page-node-47 #section-header,.page-node-60 #section-header,.page-node-7 #section-header,.page-node-88 #section-header,.page-node-89 #section-header,.page-node-81 #section-header,.page-node-85 #section-header{background:url(/sites/all/themes/surrey_youth_focus/images/header_pics/header_volley2.jpg) no-repeat center top;background-size:cover}
 #zone-content-wrapper, .front #zone-content-wrapper {margin-top:0;}
 /* End of Members*/
  

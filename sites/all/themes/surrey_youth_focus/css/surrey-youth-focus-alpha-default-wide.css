@@ -1,5 +1,6 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
-header {width:1200px;}
+header {width:1200px; height:500px;}
+.front #zone-content-wrapper {margin:0;}
 #block-quickmenu-main-menu {display: none;}
 .not-logged-in #region-user-first {margin-left:810px;}
 /*Resource Directory*/
