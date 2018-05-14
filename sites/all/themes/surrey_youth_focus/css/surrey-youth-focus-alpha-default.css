@@ -41,7 +41,7 @@ footer p.terms															{font-size:11px;}
  
  /*------------------HEADER IMAGES-----------------------*/
  /*---Default image---*/
-/* #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_changetheworld.jpg) no-repeat center top; background-size: cover;}
+#section-header 		{background-color: white; height:auto;}
  /*End default*/
  
  /* Logged in Members Page / default pages
