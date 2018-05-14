@@ -41,10 +41,10 @@ footer p.terms															{font-size:11px;}
  
  /*------------------HEADER IMAGES-----------------------*/
  /*---Default image---*/
-#section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_changetheworld.jpg) no-repeat center top; background-size: cover;}
+/* #section-header 		{background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_changetheworld.jpg) no-repeat center top; background-size: cover;}
  /*End default*/
  
- /* Logged in Members Page / default pages*/
+ /* Logged in Members Page / default pages
 .page-node-338 #section-header,
 .page-node-296 #section-header,
 .page-node-284 #section-header,
@@ -72,21 +72,25 @@ footer p.terms															{font-size:11px;}
 .page-featured-articles #section-header,
 .page-e-bulletins-archive #section-header
  {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_members.jpg) no-repeat center top; background-size: cover;}
+ */
 
  
- /*Inspiring*/
+ /*Inspiring
   .page-node-497 #section-header,
    .page-node-48 #section-header,
     .page-node-57 #section-header
    {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_homepage_images-new_boy.jpg) no-repeat center top; background-size: cover;}
+   */
    
-    /*Empowering*/
+    /*Empowering
   .page-node-528 #section-header,
    .page-node-501 #section-header,
     .page-node-498 #section-header
    {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_empoweringyouth.jpg) no-repeat center top; background-size: cover;}
    
- /*About*/
+   */
+   
+ /*About
  
    .page-node-13 #section-header,
    .page-node-2 #section-header,
@@ -98,8 +102,9 @@ footer p.terms															{font-size:11px;}
     .page-node-55 #section-header,
     .page-news #section-header
    {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_aboutus.jpg) no-repeat center top; background-size: cover;}
+   */
 
- /*Join Us*/
+ /*Join Us
  
    .page-node-51 #section-header,
    .page-node-50 #section-header,
@@ -115,8 +120,10 @@ footer p.terms															{font-size:11px;}
             .page-node-593 #section-header,
                 .page-node-544 #section-header
    {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_aboutus.jpg) no-repeat center top; background-size: cover;}
+   
+   */
       
-    /*Championing*/
+    /*Championing
    .page-node-375 #section-header,
    .page-node-46 #section-header,
     .page-node-9 #section-header,
@@ -146,7 +153,7 @@ footer p.terms															{font-size:11px;}
     .node-type-job-vacancies #section-header
    {background: url(/sites/all/themes/surrey_youth_focus/images/header_pics/SYF_championing_youth.jpg) no-repeat center top; background-size: cover;}
 
-
+*/
 
  
   
