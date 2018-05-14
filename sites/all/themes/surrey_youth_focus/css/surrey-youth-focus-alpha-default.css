@@ -30,7 +30,7 @@ footer p.terms															{font-size:11px;}
 /*Page elements*/
 .logo-img {margin-right:0;}
  img#logo {width:100%; margin-top:0;}
- header {margin: 0 auto; height:400px;}
+ header {margin: 0 auto;}
  #zone-user {display:inherit;}
  
 #block-views-members-offers-block .views-row, #block-views-members-offers-block-1 .views-row, #block-views-members-offers-block-2 .views-row, .page-members #region-content .views-row, .page-associate-members #region-content .views-row, .page-partners #region-content .views-row {width:29%; min-height:400px;}
